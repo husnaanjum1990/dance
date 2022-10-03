@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#navbar{
+    padding:4px;
+    background-color: black;
+    font-family: 'Redressed', cursive;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 23px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 50px;
+    filter: invert(1);
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 4px 25px;
+    color: white;
+}
+#navbar li a:hover{
+    color: rgba(131, 122, 122, 0.486);
+}
+#introSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height:350px;
+    background-color: blueviolet;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 40px;
+}
+#introSection div.small{
+    font-size: 23px;
+    padding:5px ;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 34px;
+
+}
+.card-img{
+    height: 100px;
+    padding: 0 7px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content p{
+    font-size: 20px;
+}
+#missionSection{
+    height: 326px;; 
+    
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    
+}
+#mission {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#mission div.card{
+    border: 2px solid brown;
+    width: 28%;
+    height: 220px;
+    margin: 10px 20px;
+    padding: 15px;
+    /* background-color: rgb(215, 234, 235); */
+    background-color: rgba(224, 101, 224, 0.596);
+    color: white;
+    font-family: 'Redressed', cursive;
+    border-radius: 20px;
+}
+.card h3{
+    text-align: center;
+    font-size: 25px;
+}
+#sponsorsSection{
+    height:250px;
+    background-color: rgba(240, 180, 240, 0.596);
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+#sponsors{
+    height: 200px;
+    max-width: 60%;
+    margin: auto;
+
+}
+.spimage{
+    max-height: 180px;
+    margin-top: 10px;
+    padding: 20px;
+}
+#footer{
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
